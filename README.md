@@ -28,7 +28,7 @@ Mitigation strategies recommended by CISA include strong password enforcement, m
 ## Task 6: Reflection
 
 ### **1. How does the Diamond Model help in understanding threat actors?**
-The Diamond Model breaks an intrusion into four main components—Adversary, Infrastructure, Capability, and Victim. This helps analysts understand attacker behavior, motivations, and technical operations in a structured, relationship-based format.
+The Diamond Model breaks an intrusion into four main components - Adversary, Infrastructure, Capability, and Victim. This helps analysts understand attacker behavior, motivations, and technical operations in a structured, relationship-based format.
 
 ### **2. What challenges did you face in identifying each vertex?**
 The primary challenge was distinguishing between “infrastructure” and “capability,” as some tools could fall into both categories. Attribution was also difficult when the report referenced the threat actor indirectly. Information being scattered across different sections required careful reading and correlation.

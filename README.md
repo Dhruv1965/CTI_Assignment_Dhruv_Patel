@@ -1,6 +1,6 @@
 # CTI_Assignment_Dhruv_Patel
 
-## ## Task 3: Diamond Model Vertex Extraction
+## Task 3: Diamond Model Vertex Extraction
 
 The following analysis is based on the CISA Alert **AA23-331A: Iranian Cyber Actors Exploit PLCs**, describing IRGC-affiliated cyber activity targeting U.S. critical infrastructure.
 

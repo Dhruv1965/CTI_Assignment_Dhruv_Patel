@@ -40,4 +40,4 @@ The **Diamond Model** helps us anticipate the types of **infrastructure** and **
 
 ## Reference
 
-**https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a

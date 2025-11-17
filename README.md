@@ -15,24 +15,24 @@ The following analysis is based on the CISA Alert **AA23-331A: Iranian Cyber Act
 
 ## Task 5: Threat Actor Profile Summary
 
-The threat actor analyzed in this assignment is an Iranian government-linked cyber group associated with the Islamic Revolutionary Guard Corps (IRGC). According to CISA Alert AA23-331A, these actors have targeted critical infrastructure in the United States, focusing on water management, energy production, and manufacturing sectors. Their main intent appears to be the disruption of industrial processes by compromising operational technology (OT) systems.
+The threat group being investigated in this assignment is an Iranian government-backed computer group that is linked to the Islamic Revolutionary Guard Corps (IRGC). As described in CISA Alert AA23-331A, these attackers have been hitting critical infrastructure in the US, with a major attention to water management, energy production and manufacturing. The primary goal of them seems to be to disrupt industrial processes through the attack on operation technology (OT) systems.
 
-Initial access is usually obtained through weak or default passwords on publicly exposed programmable logic controllers (PLCs) and other industrial control system (ICS) devices. Other attack vectors include password spraying, misconfigured remote access services, and unauthorized VPN entry points. Once inside the environment, the actors manipulate PLC configurations, potentially disrupting physical processes and services.
+Extra access is more often gained using the weak or default passwords on publicly exposed programmable logic controllers (PLCs) and other industrial control system (ICS) programs. The other attack vectors are password spraying, misconfigured remote access services, and unauthorized VPN entry points. The actors once in the environment manipulate the set up of PLCs which may interfere with physical processes and physical services.
 
-Diamond Model analysis highlights clear relationships among the adversary, their tools, and their victims. The adversary is a state-affiliated group skilled in ICS/OT exploitation. Their infrastructure includes compromised PLCs, attacker-controlled servers, and unsecured OT networks. Their capabilities involve credential exploitation, OT manipulation, and ICS-targeted cyber techniques. Victims are U.S. critical infrastructure organizations with insufficient segmentation or weak authentication practices.
+The analysis of the Diamond Model gives prominent relations between the adversary, the tools used, and the victims. The opponent is a state-sponsored team that is experienced in the exploitation of ICS/OT. Their structure comprises of compromised PLCs, servers that are controlled by the attackers and unsecured OT networks. They include capabilities of credit exploitation, OT manipulation, and targeting ICS with the help of cyber techniques. U.S. critical infrastructure organizations that are segmented poorly or whose authentication practices are weak are victims.
 
-Mitigation strategies recommended by CISA include strong password enforcement, multi-factor authentication, OT/IT network segmentation, disabling unused PLC functions, and continuous monitoring for unusual activity. These measures significantly reduce risk and strengthen the security posture of industrial control environments.
+Strong passwords, multi-factor authentication, segmentation of the OT/IT network, and disabling all functions that are not in use, as well as constant monitoring of the suspicious activity are the recommendations of CISA. Such measures go a long way in minimizing threat and enhancing the security positioning of industrial control settings.
 
 ---
 
 ## Task 6: Reflection
 
 ### **1. How does the Diamond Model help in understanding threat actors?**
-The Diamond Model breaks an intrusion into four main components - Adversary, Infrastructure, Capability, and Victim. This helps analysts understand attacker behavior, motivations, and technical operations in a structured, relationship-based format.
+The Diamond Model has four basic segments that an intrusion is divided on Adversary, Infrastructure, Capability, and Victim. It assists the analysts to learn how the attackers behave, the motives and the technical processes in a systematic, relationship-oriented manner.
 
 ### **2. What challenges did you face in identifying each vertex?**
-The primary challenge was distinguishing between “infrastructure” and “capability,” as some tools could fall into both categories. Attribution was also difficult when the report referenced the threat actor indirectly. Information being scattered across different sections required careful reading and correlation.
+The most critical issue was to separate infrastructures and capabilities since there might be tools which lie in both domains. It was also challenging to make an attribution where the threat actor was mentioned indirectly in the report. The fact that information was dispersed in various parts meant that one had to read and correlate information carefully.
 
 ### **3. How could this model support proactive defense strategies?**
-The model enables defenders to identify attack patterns, commonly abused entry points, and targeted systems. This allows organizations to strengthen controls, enhance monitoring for specific TTPs, and predict future attacker behavior—shifting from reactive response to proactive defense.
+The model allows the defendants to recognize attack patterns, frequently exploited entry points, and targeted systems. This will enable organizations to build more control, improve surveillance of certain TTPs, and anticipate how attackers will act out in the future, moving toward a proactive defense, rather than reactive response.
 

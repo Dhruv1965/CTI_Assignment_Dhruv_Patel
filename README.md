@@ -37,3 +37,7 @@ The main challenge was identifying the **Infrastructure** component, as **PLCs**
 The **Diamond Model** helps us anticipate the types of **infrastructure** and **capabilities** that adversaries will target. By identifying **VMware vulnerabilities** as a **common attack vector**, organizations can implement proactive measures such as **patching**, **multi-factor authentication (MFA)**, and **network segmentation**. Monitoring for specific **ransomware behaviors** and **credential-based attacks** can also enhance threat detection capabilities.
 
 ---
+
+## Reference
+
+**https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a
